@@ -1,6 +1,6 @@
 %define module   Any-Moose
 %define version    0.07
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 Name:       perl-%{module}
 Version:    %{version}
