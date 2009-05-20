@@ -1,6 +1,6 @@
 %define module   Any-Moose
 %define version    0.07
-%define release    %mkrel 2
+%define release    %mkrel 3
 
 Name:       perl-%{module}
 Version:    %{version}
@@ -11,6 +11,7 @@ Summary:    Use Moose or Mouse modules
 Url:        http://search.cpan.org/dist/%{module}
 Source:     http://www.cpan.org/modules/by-module/Any/%{module}-%{version}.tar.gz
 BuildRequires: perl(Mouse)
+Requires:       perl-Moose-implementation
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
