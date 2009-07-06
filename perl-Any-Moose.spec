@@ -1,5 +1,5 @@
 %define upstream_name    Any-Moose
-%define upstream_version 0.09
+%define upstream_version 0.10
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ License:    GPL+ or Artistic
 Group:      Development/Perl
 Summary:    Use Moose or Mouse modules
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://search.cpan.org/CPAN/authors/id/F/FL/FLORA/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://search.cpan.org/CPAN/authors/id/S/SA/SARTAK/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Mouse)
 BuildArch: noarch
