@@ -1,2 +1,4 @@
+removed_sources:
+  Any-Moose-0.15.tar.gz: 36ad0770b67a707658146fc2e3522699cb90baf4
 sources:
-  "Any-Moose-0.15.tar.gz": 36ad0770b67a707658146fc2e3522699cb90baf4
+  Any-Moose-0.21.tar.gz: 50237ad86e160c027c4c0723b017f1f943597869
