@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.21
-Release:	2
+Release:	3
 
 Summary:	Use Moose or Mouse modules
 License:	GPL+ or Artistic
