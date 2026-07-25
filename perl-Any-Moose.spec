@@ -1,15 +1,15 @@
 %define upstream_name    Any-Moose
-%define upstream_version 0.21
+%define upstream_version 0.27
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.21
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Use Moose or Mouse modules
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/authors/id/S/SA/SARTAK/Any-Moose-0.21.tar.gz
+Url:		https://github.com/moose/Any-Moose
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Any-Moose-0.27.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
