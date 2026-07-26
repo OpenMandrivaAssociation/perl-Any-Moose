@@ -1,9 +1,7 @@
 %define upstream_name    Any-Moose
-%define upstream_version 0.27
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.27
+Release:	2
 
 Summary:	Use Moose or Mouse modules
 License:	GPL+ or Artistic
@@ -22,7 +20,7 @@ Actual documentation is forthcoming, once we solidify all the bits of the
 API. The examples above are very likely to continue working.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -72,8 +70,7 @@ make test
 * Mon Jun 08 2009 Jérôme Quelin <jquelin@mandriva.org> 0.90.0-1mdv2010.0
 + Revision: 384052
 - update to 0.09
-- using %%perl_convert_version
-- cleaned license tag
+- using %0.27 cleaned license tag
 
 * Thu May 21 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.07-4mdv2010.0
 + Revision: 378280
